@@ -1,28 +1,51 @@
 This is a test file
 
---ÅäÖÃ×Ô¼ºµÄÓÃ»§ÃûºÍÓÊÏä--
+--é…ç½®è‡ªå·±çš„ç”¨æˆ·åå’Œé‚®ç®±--
+
 git config --global user.name ""
+
 git config --global user.email ""
---²é¿´±¾µØÊÇ·ñ´æÔÚssh key--
-cd ~/.ssh »òcd .ssh
---Éú³Éssh key ÌîÐ´×Ô¼ºµÄÓÊÏä--
+
+--æŸ¥çœ‹æœ¬åœ°æ˜¯å¦å­˜åœ¨ssh key--
+
+cd ~/.ssh æˆ–cd .ssh
+
+--ç”Ÿæˆssh key å¡«å†™è‡ªå·±çš„é‚®ç®±--
+
 ssh-keygen -t rsa -C "email@email.com"
---½«Éú³ÉºÃµÄssh keyÅäÖÃµ½githubÖÐ--
-¡¤¡¤¡¤
---²âÊÔÊÇ·ñ³É¹¦--
+
+--å°†ç”Ÿæˆå¥½çš„ssh keyé…ç½®åˆ°githubä¸­--
+
+Â·Â·Â·
+
+--æµ‹è¯•æ˜¯å¦æˆåŠŸ--
+
 ssh -T git@github.com
-¡¤¡¤¡¤
---±¾µØ´´½¨Ä¿Â¼--
+Â·Â·Â·
+--æœ¬åœ°åˆ›å»ºç›®å½•--
+
 mkdir fileName
---½øÈëÄ¿Â¼--
+
+--è¿›å…¥ç›®å½•--
+
 cd fileName
---git³õÊ¼»¯--
+
+--gitåˆå§‹åŒ–--
+
 git init 
---ÔÚ.git ÎÄ¼þ¼ÐÏÂÓÐÎÄ¼þ¿ÉÖ±½ÓÉÏ´«--
+
+--åœ¨.git æ–‡ä»¶å¤¹ä¸‹æœ‰æ–‡ä»¶å¯ç›´æŽ¥ä¸Šä¼ --
+
 	git add fileName
+	
 	git commit -m "fileDescribe"
+	
 	git remote add origin git@github.com:XXXXXX/XXXXXXXXXt.git
+	
 	git push -u origin master
---Ë¢ÐÂgithub--
---±¾µØ´´½¨ÎÄ¼þ--
+	
+--åˆ·æ–°github--
+
+--æœ¬åœ°åˆ›å»ºæ–‡ä»¶--
+
 echo "fileContent" > fileName.**# Ra-GitHub-Test
