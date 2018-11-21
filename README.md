@@ -49,3 +49,6 @@ This is a test file
 --本地创建文件--
 
 	echo "fileContent" > fileName.**# Ra-GitHub-Test
+
+	
+	test
